@@ -1,0 +1,105 @@
+<div class="swiper-container">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide slide">
+            <img src="Content/img/banner.gif" alt="">
+        </li>
+        <li class="swiper-slide slide">
+            <img src="Content/img/banner.gif" alt="">
+        </li>
+        <li class="swiper-slide slide">
+            <img src="Content/img/banner.gif" alt="">
+        </li>
+        <li class="swiper-slide slide">
+            <img src="Content/img/banner.gif" alt="">
+        </li>
+        <li class="swiper-slide slide">
+            <img src="Content/img/banner.gif" alt="">
+        </li>
+    </ul>
+    <div class="swiper-pagination pagination"></div>
+</div>
+<ul class="menu">
+    <li><span><b class="iconfont">&#xe69f;</b></span><span>车商城</span></li>
+    <li><span style="background:#FF9D3D;"><b class="iconfont">&#xe69f;</b></span><span>分期购车</span></li>
+    <li><span style="background: #FF6565;"><b class="iconfont">&#xe69f;</b></span><span>团购活动</span></li>
+    <li><span style="background: #4183FF;"><b class="iconfont">&#xe69f;</b></span><span>找二手车</span></li>
+</ul>
+<div class="love">
+    <img src="Content/img/img.gif" alt="">
+</div>
+<div class="car-server">
+    <h3>车主服务</h3>
+    <ul class="server">
+        <li><span class="iconfont">&#xe717;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe717;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe6f6;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe6c9;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe6ca;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe6ba;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe67d;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe624;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe626;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe635;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe655;</span><span>油卡充值</span></li>
+        <li><span class="iconfont">&#xe656;</span><span>油卡充值</span></li>
+    </ul>
+</div>
+<div class="time-shop">
+    <h3><span>限时抢购</span><span><b>13</b>:<b>13</b>:<b>13</b></span></h3>
+    <ul class="hot-sale">
+        <li>
+            <b class="hot"></b>
+            <em class="em">热销</em>
+            <img src="Content/img/img1.gif" alt="">
+            <span>补胎工具简易套装</span>
+            <span><b>￥9.9元</b><i>28元</i></span>
+        </li>
+        <li>
+            <b class="hot"></b>
+            <em class="em">热销</em>
+            <img src="Content/img/img2.gif" alt="">
+            <span>补胎工具简易套装</span>
+            <span><b>￥9.9元</b><i>28元</i></span>
+        </li>
+        <li>
+            <b class="hot"></b>
+            <em class="em">热销</em>
+            <img src="Content/img/hot.gif" alt="">
+            <span>补胎工具简易套装</span>
+            <span><b>￥9.9元</b><i>28元</i></span>
+        </li>
+    </ul>
+</div>
+<div class="time-shop">
+    <h3><span>活动专区</span><span><b>13</b>:<b>13</b>:<b>13</b></span></h3>
+    <ul class="time-sale">
+        <li>
+            <span>测身价炫富</span>
+            <span>身价大PK</span>
+            <img src="Content/img/pic1.gif" alt="">
+        </li>
+        <li>
+            <span>全场0利率</span>
+            <span>购车无压力</span>
+            <img src="Content/img/pic2.gif" alt="">
+        </li>
+        <li>
+            <span>好车分期</span>
+            <span>定制专属方案</span>
+            <img src="Content/img/pic3.gif" alt="">
+        </li>
+    </ul>
+</div>
+<h3><span>猜你喜欢</span><span class="btn">更多<b>></b></span></h3>
+<div class="likes">
+    <dl ng-repeat="key in data">
+        <dt><img ng-src="{{key.img}}" alt=""></dt>
+        <dd>
+            <h2>{{key.title}}</h2>
+            <h3>{{key.content}}</h3>
+            <p><span>{{key.nowprice}}</span><small>{{key.newprice}}</small></p>
+        </dd>
+    </dl>
+</div>
+<p class="add">点击加载</p>
+

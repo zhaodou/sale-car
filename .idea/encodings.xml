@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/App/Controller/tabController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/App/Directive/tabDirective.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/App/temp/_tab1.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/App/temp/tab1.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Data/data.json" charset="UTF-8" />
+  </component>
+</project>
